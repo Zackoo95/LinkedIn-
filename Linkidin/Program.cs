@@ -44,9 +44,9 @@ namespace Linkidin
             IWebElement element = driver.FindElement(By.ClassName("login-email"));
             IWebElement element2 = driver.FindElement(By.ClassName("login-password"));
             element.Click();
-            element.SendKeys("ahmedsamsoliman@gmail.com");
+            element.SendKeys("");
             element2.Click();
-            element2.SendKeys("Zackoo_1995");
+            element2.SendKeys("");
             driver.FindElement(By.Id("login-submit")).Click();
 
             driver.Navigate().GoToUrl("https://www.linkedin.com/ad-beta/account/507558790/campaign/126895946/details");
